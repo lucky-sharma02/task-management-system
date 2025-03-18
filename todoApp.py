@@ -1,16 +1,3 @@
-# Todo Project
-# CRUD => Create, Read, Update, Delete
- 
-# Step
- 
-# python => python -V or python --version
-# pip list => display all the dependency of python
-# mysql => pip install mysql-connector-python
- 
-# connect => connection, method
-# cursor => cursor => cursor object
-# execute => execute the query
- 
 import mysql.connector as mysql
  
 con = mysql.connect(host="localhost", user="root", passwd="Mysql@123")
